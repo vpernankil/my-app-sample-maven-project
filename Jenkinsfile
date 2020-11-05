@@ -9,7 +9,7 @@ node{
 
 	//Get maven home path
 	def mvnhome = tool name: 'maven3', type: 'maven'
-	sh '${mvnhome}/bin/mvn clean package'
+	sh "${mvnhome}/bin/mvn clean package"
  
    }
 	
